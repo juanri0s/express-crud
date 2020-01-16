@@ -18,9 +18,9 @@ mongoose
   .catch(err => console.log(err));
 
 const rootRoutes = require('./api/routes/root.routes');
-const partyRoutes = require('./api/routes/party.routes');
+const exampleRoutes = require('./api/routes/example.routes');
 
 app.get('/', rootRoutes);
-app.use('/api', partyRoutes);
+app.use('/api', exampleRoutes);
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
