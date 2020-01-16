@@ -1,1 +1,1 @@
-`express-crud` is a skeleton create, read, update, delete server that can be inserted into any frontend project for getting a quicker mongoDb server running
+`express-crud` is a skeleton create, read, update, delete Express.js API that can be inserted into any frontend project
